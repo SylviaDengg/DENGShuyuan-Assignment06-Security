@@ -16,7 +16,7 @@ def build_model_callable() -> tuple[Callable[[str], str], str]:
     load_dotenv()
 
     api_key = os.getenv("DEEPSEEK_API_KEY")
-    base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+    base_url = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com")
     model_name = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 
     if api_key:

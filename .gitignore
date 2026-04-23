@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 venv/
 flagged_content.jsonl
+.DS_Store
+.pytest_cache/
+mini_assignment_06_codex_prompt.md
+mini_assignment_06_guidelines.md
+mini-assignment-06-integration.pdf
